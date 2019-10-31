@@ -1,0 +1,73 @@
+body {
+  background: #0f0f0f;
+  overflow: hidden;
+  margin: 0;
+  font-family: "Permanent Marker", cursive;
+  background-color: black;
+  background-image: url("https://cdn.glitch.com/a27c8df8-5b3c-45dd-8846-fe2932f8da23%2F52345.jpg?v=1572291391797//");
+}
+.yellow{
+  color: #ffcc00
+}
+h1 {
+  position: fixed;
+  text-align: center;
+  font-size: 47px;
+  left: 0;
+  right: 0;
+  color: white;
+}
+canvas {
+  background: transparent;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: verdana;
+}
+p {
+  color: white;
+  text-decoration: none;
+  font-family: verdana;
+}
+#mute{
+  position: absolute;
+  right: 3vh;
+  top: 3vh;
+  font-size: 30px
+}
+#btns{
+  position: absolute;
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.btn{
+  height: 50px;
+  width: 50px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 50px;
+  transition: color 300ms
+}
+.btn:hover{
+  cursor: pointer;
+  color: #ff7b1c;
+  transition: color 300ms
+}
+footer{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 5px;
+  color: white;
+  position: absolute;
+  bottom: -5vh;
+  color: white;
+  text-align: center;
+  width: 100%;
+  background: rgba(15, 15, 15, 0.7)
+}
